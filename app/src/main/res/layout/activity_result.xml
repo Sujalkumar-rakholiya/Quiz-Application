@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#CCA67A12"
+    android:padding="20dp"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/welldone"/>
+
+    <TextView
+        android:id="@+id/correct"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correct Answer"
+        android:background="#D80ADE0A"
+        android:textSize="25sp"
+        android:fontFamily="@font/roboto_medium"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/wrong"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wrong Answer"
+        android:background="#D8DE180A"
+        android:textSize="25sp"
+        android:fontFamily="@font/roboto_medium"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Answer"
+        android:background="#E6FF07"
+        android:textSize="25sp"
+        android:fontFamily="@font/roboto_medium"
+        android:textAlignment="center"/>
+
+    <RelativeLayout
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="20dp">
+
+        <com.mikhaellopez.circularprogressbar.CircularProgressBar
+            android:id="@+id/circularProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cpb_background_progressbar_color="#DC2517"
+            app:cpb_background_progressbar_width="12dp"
+            app:cpb_progress_direction="to_right"
+            app:cpb_progress_max="5"
+            app:cpb_progressbar_color="#1BBD22"
+            app:cpb_progressbar_width="12dp"
+            app:cpb_round_border="false"
+            tools:ignore="MissingClass" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="10"
+            android:textColor="#E6FF07"
+            android:textSize="50sp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:textSize="25sp"
+        android:backgroundTint="#0000FF"/>
+
+
+</LinearLayout>

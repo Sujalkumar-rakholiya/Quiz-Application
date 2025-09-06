@@ -1,0 +1,1003 @@
+[
+    {
+      "question": "Which of the following is the correct syntax to declare a variable in Java?",
+      "options": [
+        "variable name = value;",
+        "dataType variableName = value;",
+        "dataType = variableName;",
+        "variableName dataType = value;"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the size of an `int` data type in Java?",
+      "options": [
+        "8 bits",
+        "16 bits",
+        "32 bits",
+        "64 bits"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which keyword is used to prevent a class from being inherited?",
+      "options": [
+        "static",
+        "private",
+        "final",
+        "abstract"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the main difference between JRE, JDK, and JVM?",
+      "options": [
+        "JRE runs the code, JDK compiles the code, and JVM is a part of both.",
+        "JDK is the development kit, JRE is the runtime environment, and JVM is the virtual machine that executes bytecode.",
+        "JVM is for development, JRE is for testing, and JDK is for deployment.",
+        "They are all different names for the same thing."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of these is NOT a valid access modifier in Java?",
+      "options": [
+        "public",
+        "protected",
+        "private",
+        "internal"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "What is the output of `String s = new String(\"hello\"); System.out.println(s == \"hello\");`?",
+      "options": [
+        "true",
+        "false",
+        "Compilation Error",
+        "Runtime Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which collection class does not allow duplicate elements?",
+      "options": [
+        "ArrayList",
+        "LinkedList",
+        "HashSet",
+        "HashMap"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is method overriding?",
+      "options": [
+        "A subclass providing a specific implementation for a method that is already defined in its superclass.",
+        "Defining multiple methods with the same name but different parameters in the same class.",
+        "A method calling itself.",
+        "A method that cannot be accessed by a subclass."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which block of code is always executed whether an exception is handled or not?",
+      "options": [
+        "try",
+        "catch",
+        "finally",
+        "throw"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the purpose of the `super` keyword?",
+      "options": [
+        "To call a method in the same class.",
+        "To refer to the current object instance.",
+        "To invoke a superclass's constructor or method.",
+        "To create a new instance of a superclass."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which of these is an example of a checked exception?",
+      "options": [
+        "NullPointerException",
+        "ArrayIndexOutOfBoundsException",
+        "IOException",
+        "ArithmeticException"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What does the `static` keyword mean when applied to a method?",
+      "options": [
+        "The method can only be called from static contexts.",
+        "The method belongs to the class, not an instance of the class.",
+        "The method cannot be overridden.",
+        "The method's value is constant."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the difference between `String`, `StringBuilder`, and `StringBuffer`?",
+      "options": [
+        "String is mutable, StringBuilder and StringBuffer are immutable.",
+        "String is immutable, StringBuilder is mutable and not thread-safe, StringBuffer is mutable and thread-safe.",
+        "String is thread-safe, StringBuilder is not, and StringBuffer is used for formatting.",
+        "There is no difference; they can be used interchangeably."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the root class of the Java class hierarchy?",
+      "options": [
+        "System",
+        "Main",
+        "Object",
+        "Class"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which interface must be implemented to create a thread in Java?",
+      "options": [
+        "Runnable",
+        "Threadable",
+        "Executable",
+        "Serializable"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "In which data structure does a `HashMap` store its key-value pairs?",
+      "options": [
+        "A balanced tree.",
+        "A doubly-linked list.",
+        "An array of buckets, which may contain linked lists or trees.",
+        "A simple array."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is a functional interface?",
+      "options": [
+        "An interface with no methods.",
+        "An interface with only static methods.",
+        "An interface with exactly one abstract method.",
+        "An interface that can be used as a function."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the purpose of a constructor?",
+      "options": [
+        "To destroy an object.",
+        "To return a value.",
+        "To initialize the state of a new object.",
+        "To perform a static operation."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which of these is NOT a feature of Java?",
+      "options": [
+        "Object-Oriented",
+        "Platform Independent",
+        "Pointers",
+        "Multithreading"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is autoboxing?",
+      "options": [
+        "The automatic conversion of a primitive data type into its corresponding wrapper class object.",
+        "The automatic conversion of a wrapper class object into its corresponding primitive data type.",
+        "A technique for optimizing box-drawing operations.",
+        "The process of garbage collection for boxed primitives."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which of the following is a terminal operation in the Java Stream API?",
+      "options": [
+        "filter()",
+        "map()",
+        "sorted()",
+        "forEach()"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Can you declare a class as both `abstract` and `final`?",
+      "options": [
+        "Yes, if it has no methods.",
+        "No, this would be a contradiction.",
+        "Yes, but it is not recommended.",
+        "Only if it extends another class."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the default value of a boolean variable in Java?",
+      "options": [
+        "true",
+        "false",
+        "0",
+        "null"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which keyword is used to manually throw an exception?",
+      "options": [
+        "catch",
+        "throws",
+        "finally",
+        "throw"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "What is the `this` keyword used for?",
+      "options": [
+        "To refer to the static members of a class.",
+        "To refer to the current instance of the class.",
+        "To call a static method.",
+        "To create a new object."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of the following is a correct way to create an `ArrayList` of Strings?",
+      "options": [
+        "ArrayList<String> list = new ArrayList<String>();",
+        "ArrayList list = new ArrayList();",
+        "ArrayList<String> list = new ArrayList();",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "What is encapsulation?",
+      "options": [
+        "The process of converting code to a lower-level language.",
+        "The technique of bundling data (variables) and the methods that operate on the data into a single unit or class.",
+        "The ability of a class to inherit properties from another class.",
+        "The ability to execute multiple threads at once."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is polymorphism?",
+      "options": [
+        "The ability of an object to take on many forms, typically achieved through method overriding.",
+        "A way to secure data by hiding implementation details.",
+        "A mechanism to handle multiple exceptions in one block.",
+        "A technique for defining constants."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which of the following statements is true about an abstract class?",
+      "options": [
+        "An abstract class cannot have a constructor.",
+        "An abstract class can be instantiated.",
+        "An abstract class can have both abstract and non-abstract methods.",
+        "An abstract class cannot have static methods."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the purpose of the `volatile` keyword?",
+      "options": [
+        "To mark a variable as read-only.",
+        "To indicate that a variable's value will be modified by different threads.",
+        "To make a variable accessible only within its package.",
+        "To prevent a variable from being serialized."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which data structure is used to implement a `Queue`?",
+      "options": [
+        "Stack",
+        "Array",
+        "LinkedList",
+        "HashMap"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What will `Math.round(2.6)` return?",
+      "options": [
+        "2.0",
+        "2",
+        "3.0",
+        "3"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Which of these is NOT a bitwise operator in Java?",
+      "options": [
+        "&",
+        "|",
+        "^",
+        "&&"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "What does the `instanceof` operator do?",
+      "options": [
+        "It creates a new instance of a class.",
+        "It compares two object references.",
+        "It checks if an object is an instance of a particular class or interface.",
+        "It returns the memory address of an object."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Can a private method be overridden in a subclass?",
+      "options": [
+        "Yes",
+        "No, because it is not visible to the subclass.",
+        "Only if the subclass is in the same package.",
+        "Yes, but it requires the `@Override` annotation."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the default access modifier for a class member if none is specified?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "default (package-private)"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Which of these is the correct way to start a thread `t`?",
+      "options": [
+        "t.run();",
+        "t.start();",
+        "t.init();",
+        "t.execute();"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is garbage collection in Java?",
+      "options": [
+        "A manual process to free memory.",
+        "An automatic process of freeing memory by destroying unreachable objects.",
+        "A process to clean up temporary files.",
+        "A mechanism to handle runtime errors."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is an interface in Java?",
+      "options": [
+        "A concrete class with implementation details.",
+        "A blueprint of a class that has static constants and abstract methods.",
+        "A class used for creating graphical user interfaces.",
+        "A way to achieve multiple inheritance of state."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the result of `10 % 3`?",
+      "options": [
+        "3",
+        "3.33",
+        "1",
+        "0"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which keyword is used to exit from a loop?",
+      "options": [
+        "exit",
+        "return",
+        "continue",
+        "break"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "What is the use of the `transient` keyword?",
+      "options": [
+        "To mark a variable to be ignored during serialization.",
+        "To make a variable thread-safe.",
+        "To define a short-lived variable.",
+        "To create a temporary file."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which of these is a `Map` implementation that maintains insertion order?",
+      "options": [
+        "HashMap",
+        "TreeMap",
+        "LinkedHashMap",
+        "Hashtable"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What does the `equals()` method of the `Object` class do?",
+      "options": [
+        "It compares the contents of two objects.",
+        "It compares the memory addresses of two objects (shallow comparison).",
+        "It checks if two objects are of the same class.",
+        "It generates a hash code for the object."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is a lambda expression?",
+      "options": [
+        "A way to define a new class.",
+        "A short block of code which takes in parameters and returns a value, representing an anonymous function.",
+        "A special type of comment for documentation.",
+        "A security feature in Java."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is a marker interface?",
+      "options": [
+        "An interface with exactly one method.",
+        "An empty interface used to 'mark' a class with some special behavior.",
+        "An interface that can only be implemented by one class.",
+        "An interface used for GUI markers."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of these is a valid declaration of a `char`?",
+      "options": [
+        "char c = \"a\";",
+        "char c = 'a';",
+        "char c = (char)'a';",
+        "char c = a;"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the difference between `throw` and `throws`?",
+      "options": [
+        "`throw` is used to declare an exception, `throws` is used to trigger one.",
+        "`throw` is used to trigger an exception, `throws` is used in a method signature to declare which exceptions it might throw.",
+        "They are interchangeable.",
+        "`throw` is for checked exceptions, `throws` is for unchecked exceptions."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of these is an example of an unchecked exception?",
+      "options": [
+        "FileNotFoundException",
+        "ClassNotFoundException",
+        "SQLException",
+        "NullPointerException"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "What is the main purpose of the `Serializable` interface?",
+      "options": [
+        "To enable an object to be written to an output stream as a sequence of bytes.",
+        "To make an object's methods serial.",
+        "To sort objects in a collection.",
+        "To define a series of tasks."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "How can you make a copy of an `ArrayList`?",
+      "options": [
+        "Using the assignment operator `=`.",
+        "Using the `clone()` method or the copy constructor.",
+        "You cannot copy an ArrayList.",
+        "By iterating and manually adding elements to a new list."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which class is used to read input from the console?",
+      "options": [
+        "ConsoleReader",
+        "System.in",
+        "Scanner",
+        "BufferedReader"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the `hashCode()` method used for?",
+      "options": [
+        "To get the memory address of an object.",
+        "To generate an integer representation of an object, often used by collections like `HashMap`.",
+        "To compare two objects for equality.",
+        "To encrypt a string."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What does `public static void main(String[] args)` mean?",
+      "options": [
+        "It's a standard method that can be customized.",
+        "It is the entry point for any Java application.",
+        "It is a method to execute the main thread.",
+        "It is a constructor for the main class."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which loop is guaranteed to execute at least once?",
+      "options": [
+        "for",
+        "while",
+        "do-while",
+        "enhanced for"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is method chaining?",
+      "options": [
+        "Calling multiple methods on the same object in a single statement.",
+        "Linking methods together using inheritance.",
+        "A sequence of method calls in a stack trace.",
+        "A way to define methods that call each other."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which of the following is NOT a Java keyword?",
+      "options": [
+        "interface",
+        "string",
+        "volatile",
+        "transient"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the default value of an object reference variable?",
+      "options": [
+        "0",
+        "undefined",
+        "\"\"",
+        "null"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "What is the `Optional` class used for in Java 8?",
+      "options": [
+        "To make method parameters optional.",
+        "To represent a value that may or may not be present, helping to avoid `NullPointerException`.",
+        "To provide optional, alternative implementations for an interface.",
+        "To define optional dependencies in a project."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Can an interface extend another interface?",
+      "options": [
+        "No, interfaces can only be implemented by classes.",
+        "Yes, an interface can extend multiple other interfaces.",
+        "Yes, but only one other interface.",
+        "Only if the other interface has no methods."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of these classes is immutable?",
+      "options": [
+        "StringBuilder",
+        "Date",
+        "String",
+        "ArrayList"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the `continue` statement used for?",
+      "options": [
+        "To exit a loop completely.",
+        "To skip the current iteration of a loop and move to the next one.",
+        "To pause the execution of a loop.",
+        "To go back to the beginning of the loop."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the term for having multiple methods with the same name but different parameter lists in the same class?",
+      "options": [
+        "Method overriding",
+        "Method overloading",
+        "Method hiding",
+        "Method duplication"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of these is the correct way to get the length of an array named `arr`?",
+      "options": [
+        "arr.length()",
+        "arr.size()",
+        "arr.length",
+        "arr.capacity()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the difference between a `Set` and a `List`?",
+      "options": [
+        "A List can contain duplicates, while a Set cannot.",
+        "A Set maintains insertion order, while a List does not.",
+        "A List is synchronized, while a Set is not.",
+        "A Set can only hold primitive types."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What is the purpose of the `synchronized` keyword?",
+      "options": [
+        "To ensure that a block of code is executed at the same time by multiple threads.",
+        "To ensure that only one thread can execute a block of code or method at a time.",
+        "To synchronize the system clock.",
+        "To make data transfer synchronous."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of the following is true about a `final` variable?",
+      "options": [
+        "Its value can be changed multiple times.",
+        "It must be initialized at the time of declaration.",
+        "It can be initialized only once, either at declaration or in the constructor.",
+        "It can only be a primitive type."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What does the `break` statement do inside a `switch` block?",
+      "options": [
+        "It stops the program.",
+        "It terminates the `switch` statement and transfers control to the statement following the switch.",
+        "It skips the current case.",
+        "It causes a compilation error."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the return type of a constructor?",
+      "options": [
+        "void",
+        "The class type",
+        "It has no return type, not even void.",
+        "Object"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which operator has the highest precedence in Java?",
+      "options": [
+        "()",
+        "++",
+        "*",
+        "+"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which of the following is an intermediate operation in a Java Stream?",
+      "options": [
+        "collect()",
+        "count()",
+        "filter()",
+        "anyMatch()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "How do you comment out a single line of code in Java?",
+      "options": [
+        "/* comment */",
+        "// comment",
+        "# comment",
+        ""
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the result of `\"java\".equals(\"Java\")`?",
+      "options": [
+        "true",
+        "false",
+        "Compilation Error",
+        "0"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which collection is best suited for a First-In-First-Out (FIFO) data structure?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Set",
+        "Map"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is an `enum` in Java?",
+      "options": [
+        "A special data type that enables for a variable to be a set of predefined constants.",
+        "A method for enumerating over a collection.",
+        "A type of loop.",
+        "A security token."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which method must be implemented by a class that implements the `Comparable` interface?",
+      "options": [
+        "equals()",
+        "compare()",
+        "compareTo()",
+        "isEqual()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is a deadlock?",
+      "options": [
+        "A situation where a thread is running but cannot make progress.",
+        "A situation where two or more threads are blocked forever, waiting for each other.",
+        "An error that causes the JVM to shut down.",
+        "A thread that has been terminated."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of the following creates an instance of a class?",
+      "options": [
+        "The `new` keyword.",
+        "The `instanceof` operator.",
+        "The constructor method name.",
+        "The `class` keyword."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What is the `var` keyword introduced in Java 10 used for?",
+      "options": [
+        "To declare global variables.",
+        "To declare variables with a variant type.",
+        "For local-variable type inference.",
+        "To declare a variable that cannot be modified."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is a package in Java?",
+      "options": [
+        "A physical folder containing `.java` files.",
+        "A mechanism for organizing Java classes into namespaces or groups.",
+        "A type of archive file like JAR.",
+        "A collection of methods."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the size of a `long` data type?",
+      "options": [
+        "16 bits",
+        "32 bits",
+        "64 bits",
+        "128 bits"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which method is called by the garbage collector before an object is reclaimed?",
+      "options": [
+        "destroy()",
+        "finalize()",
+        "delete()",
+        "gc()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of these is a `Set` implementation that maintains elements in sorted order?",
+      "options": [
+        "HashSet",
+        "LinkedHashSet",
+        "TreeSet",
+        "SortedSet"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which statement is true about `String` objects?",
+      "options": [
+        "They are mutable.",
+        "They are stored in the String Constant Pool if created using a literal.",
+        "The `==` operator always compares their content.",
+        "They can be subclassed."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is type casting?",
+      "options": [
+        "Converting a variable from one data type to another.",
+        "Throwing an exception of a certain type.",
+        "Defining a variable's type.",
+        "A way to organize classes."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What is the `?` symbol called in Java generics?",
+      "options": [
+        "Generic marker",
+        "Type parameter",
+        "Diamond operator",
+        "Wildcard"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Can you have a `static` method in an interface?",
+      "options": [
+        "No, only abstract and default methods.",
+        "Yes, starting from Java 8.",
+        "Only if the interface is final.",
+        "Yes, but it can't have a body."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which operator is used for string concatenation?",
+      "options": [
+        "&",
+        "+",
+        "concat()",
+        "&&"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the `assert` keyword used for?",
+      "options": [
+        "To declare an assertion, a condition that is expected to be true at a certain point in the code.",
+        "To assign a value to a variable.",
+        "To create a new object.",
+        "To handle an exception."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which method is the entry point of a JavaFX application?",
+      "options": [
+        "main()",
+        "init()",
+        "start()",
+        "run()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the default value of a `float` variable?",
+      "options": [
+        "0",
+        "0.0",
+        "0.0f",
+        "null"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which of these cannot be a variable name in Java?",
+      "options": [
+        "_variable",
+        "variable1",
+        "1variable",
+        "$variable"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the difference between an `Array` and an `ArrayList`?",
+      "options": [
+        "An Array is dynamic, while an ArrayList has a fixed size.",
+        "An Array has a fixed size, while an ArrayList is dynamic and can resize itself.",
+        "An Array can only store primitives, while an ArrayList can store objects.",
+        "There is no difference."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Can you instantiate an interface directly?",
+      "options": [
+        "Yes",
+        "No, but you can instantiate a class that implements it.",
+        "Only if it has no methods.",
+        "Yes, by using the `new` keyword."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What does a `default` method in an interface do?",
+      "options": [
+        "It provides a default implementation that can be used by classes implementing the interface.",
+        "It specifies the default access modifier for interface methods.",
+        "It is a method that cannot be overridden.",
+        "It is called when no other method matches."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Which statement is true about the `this()` constructor call?",
+      "options": [
+        "It can be used anywhere in a constructor.",
+        "It must be the first statement in a constructor.",
+        "It is used to call a method of the same class.",
+        "It can be used to call a superclass constructor."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What is the purpose of the `break` keyword outside of a loop or switch?",
+      "options": [
+        "To terminate the program.",
+        "To exit the current method.",
+        "It is a compilation error.",
+        "To jump to a labeled statement."
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Which of the following is a thread-safe collection?",
+      "options": [
+        "ArrayList",
+        "HashMap",
+        "HashSet",
+        "Vector"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "What is the result of `5 / 2` in Java?",
+      "options": [
+        "2.5",
+        "2.0",
+        "2",
+        "3"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which of the following is a correct way to declare a multi-dimensional array?",
+      "options": [
+        "int[][] arr = new int[2][3];",
+        "int arr[][] = new int[2][3];",
+        "int[] arr[] = new int[2][3];",
+        "All of the above"
+      ],
+      "correctAnswer": 3
+    }
+  ]
+  
